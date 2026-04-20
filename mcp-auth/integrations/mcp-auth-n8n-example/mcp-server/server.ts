@@ -103,6 +103,9 @@ server.registerTool(
         outputSchema: { result: z.number() }
     },
     async ({ a, b }) => {
+        if (b === 0) {
+            throw new Error('Division by zero is not allowed');
+        }
         const output = { result: a / b };
         return {
             content: [{ type: 'text', text: JSON.stringify(output) }],

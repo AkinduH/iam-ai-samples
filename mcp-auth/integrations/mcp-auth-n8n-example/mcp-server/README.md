@@ -17,7 +17,7 @@ A TypeScript MCP (Model Context Protocol) server with Asgardeo authentication, f
 
 2. **Configure environment variables:**
    - Create a `.env` file and update the values as needed:
-     ```
+     ```dotenv
      PORT=3000
      BASE_URL=https://api.asgardeo.io/t/<your-organization-name>
      MCP_RESOURCE=http://localhost:3000/mcp
