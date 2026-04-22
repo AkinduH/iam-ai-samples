@@ -5,14 +5,12 @@
       "parameters": {
         "options": {}
       },
-      "id": "99df2a74-a20d-4a21-af7c-362a02d6ce60",
       "name": "When chat message received",
       "type": "@n8n/n8n-nodes-langchain.chatTrigger",
       "position": [
         0,
         0
       ],
-      "webhookId": "989c3a79-5a0c-4ca1-a542-55e060816121",
       "typeVersion": 1.1
     },
     {
@@ -20,7 +18,6 @@
         "modelName": "models/gemini-2.5-flash-lite",
         "options": {}
       },
-      "id": "5855fa50-69ae-4cc6-8367-8cac8081cab5",
       "name": "Google Gemini Chat Model",
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "position": [
@@ -33,7 +30,6 @@
       "parameters": {
         "contextWindowLength": 10
       },
-      "id": "df54788b-d670-431c-b202-534ae9eb132c",
       "name": "Simple Memory",
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "position": [
@@ -46,7 +42,6 @@
       "parameters": {
         "options": {}
       },
-      "id": "3156d975-e9bf-4455-af86-dbe6ec81c481",
       "name": "Personal Assistant",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "position": [
@@ -66,7 +61,6 @@
         496,
         240
       ],
-      "id": "0a9fb27a-7c54-4753-a0ba-1683bca019b1",
       "name": "MCP Client"
     }
   ],
@@ -122,10 +116,5 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "4dd248f2-30c1-41f6-ba4e-91e573c35310",
-  "meta": {
-    "instanceId": "dd2ce4ea7a77d72052521ef51cbeb58b7a6583591c3ee7e674d517791767af3b"
-  },
-  "id": "9it7DFFCOCcJRhlC",
   "tags": []
 }
